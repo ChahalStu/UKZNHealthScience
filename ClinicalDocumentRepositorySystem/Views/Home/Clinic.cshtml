@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewData["Title"] = "Clinic";
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Buttons</title>
+    <style>
+        /* Style for the container */
+        .button-container {
+            display: flex;
+            justify-content: space-around; /* Adjust as needed */
+        }
+
+        /* Style for the big buttons */
+        .big-button {
+            display: inline-block;
+            width: 500px;
+            height: 100px;
+            background-color: #007bff; /* Blue color, change as needed */
+            color: #fff;
+            text-align: center;
+            line-height: 100px;
+            font-size: 24px;
+            text-decoration: none;
+            border-radius: 10px;
+            border: 2px solid #007bff; /* Same as background color */
+            margin: 0 10px; /* Adjust spacing between buttons */
+        }
+
+            /* Hover effect */
+            .big-button:hover {
+                background-color: #0056b3; /* Darker shade of blue */
+            }
+
+        .table-container {
+            margin: 0 auto; /* Center horizontally */
+            width: 80%; /* Set the width of the container */
+            margin-top: 20px; /* Add space between button container and table container */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #A9A9A9;
+        }
+
+        th {
+            background-color: #36454F;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="#" class="big-button">Create New Clinic</a>
+ 
+        <a href="#" class="big-button">Update Clinics</a>
+
+
+
+    </div>
+    <div>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+    </div>
+    <div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Doe</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+
+    </div>
+</body>
+
