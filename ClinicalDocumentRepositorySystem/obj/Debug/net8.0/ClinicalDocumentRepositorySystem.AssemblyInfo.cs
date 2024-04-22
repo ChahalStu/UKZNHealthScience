@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicalDocumentRepositorySystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82ac3a381b74fa7a2e939be8f5a9afb9a7575216")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicalDocumentRepositorySystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicalDocumentRepositorySystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Clinic";
 }
 
@@ -56,24 +55,118 @@
             background-color: #36454F;
         }
 
+
+        /* CSS style to add border around elements */
+        .bordered-element {
+            border: 1px solid #ffffff; /* 1px solid black border */
+            padding: 10px; /* Add some padding for better appearance */
+        }
+
+              /* CSS style to put elements with borders horizontally next to each other */
+        .container {
+            overflow: auto; /* Clear the floats */
+        }
+
+        .element {
+            border: 1px solid #ffffff; /* Border around each element */
+            float: left; /* Float elements to the left */
+            margin-right: 10px; /* Add some spacing between elements */
+            padding: 10px; /* Add padding */
+        }
+
+        .clear {
+            clear: both; /* Clear floats */
+        }
+ 
     </style>
 </head>
 <body>
-    <div class="button-container">
+@*     <div class="button-container">
         <a href="#" class="big-button">Create New Clinic</a>
- 
+
         <a href="#" class="big-button">Update Clinics</a>
 
 
 
-    </div>
+    </div> *@
     <div>
-        <p> </p>
-        <p> </p>
-        <p> </p>
-        <p> </p>
+ 
+ 
     </div>
-    <div>
+   
+      
+        <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit" >Search</button>
+           <p></p>
+    </div>
+    <div class="container">
+        <div class="element"> 
+
+    <form action="submit.php" method="post">
+        <label for="clinicName">Add a new Clinic:</label><br>
+         <p></p>
+        <label for="clinicName">Clinic Name:</label><br>
+        <input type="text" id="clinicName" name="clinicName"><br>
+        <p></p>
+        <label for="clinicLocation">Select a Clinic Location:</label><br>
+@*         <input type="text" id="clinicLocation" name="clinicLocation"><br> *@
+        <p></p>
+        <select id="clinicLocation" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <p></p>
+
+        <label for="isActive">Is Active:</label><br>
+       
+        <input type="checkbox" id="isActive" name="isActive"><br><br>
+
+        <input type="submit" value="Add Clinic">
+    
+    </form>
+    </div>
+            <div class="element"> 
+
+    <form action="submit.php" method="post">
+         <label for="editClinic">Edit Clinic:</label><br>
+         <p></p>
+
+        <label for="clinicName">Clinic Name:</label><br>
+        <input type="text" id="clinicName" name="clinicName"><br>
+
+        <label for="clinicLocation">Select a Clinic Location:</label><br>
+@*         <input type="text" id="clinicLocation" name="clinicLocation"><br> *@
+        <p></p>
+        <select id="clinicLocation" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <p></p>
+
+        <label for="isActive">Is Active:</label><br>
+        <select id="isActive" name="isActive">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <input type="submit" value="Save Changes">
+       <p></p>
+    </form>
+    </div>
+     <p></p>
+
+        </div class="clear">
+           <p></p>
+
+         <div>
+   <p></p>
 
         <table>
             <thead>
@@ -98,7 +191,8 @@
             </tbody>
         </table>
 
-
+        <p></p>
     </div>
+      <p></p>
 </body>
 

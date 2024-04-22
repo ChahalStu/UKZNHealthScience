@@ -8607,11 +8607,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chaha\\OneDrive\\Desktop\\HealthScience\\MedicalSystemWebApp\\ClinicalDocumentRepositorySystem\\ClinicalDocumentRepositorySystem\\ClinicalDocumentRepositorySystem.csproj",
+      "projectUniqueName": "C:\\Users\\chaha\\OneDrive\\Desktop\\GithubRepo\\UKZNHealthScience\\ClinicalDocumentRepositorySystem\\ClinicalDocumentRepositorySystem.csproj",
       "projectName": "ClinicalDocumentRepositorySystem",
-      "projectPath": "C:\\Users\\chaha\\OneDrive\\Desktop\\HealthScience\\MedicalSystemWebApp\\ClinicalDocumentRepositorySystem\\ClinicalDocumentRepositorySystem\\ClinicalDocumentRepositorySystem.csproj",
+      "projectPath": "C:\\Users\\chaha\\OneDrive\\Desktop\\GithubRepo\\UKZNHealthScience\\ClinicalDocumentRepositorySystem\\ClinicalDocumentRepositorySystem.csproj",
       "packagesPath": "C:\\Users\\chaha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chaha\\OneDrive\\Desktop\\HealthScience\\MedicalSystemWebApp\\ClinicalDocumentRepositorySystem\\ClinicalDocumentRepositorySystem\\obj\\",
+      "outputPath": "C:\\Users\\chaha\\OneDrive\\Desktop\\GithubRepo\\UKZNHealthScience\\ClinicalDocumentRepositorySystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

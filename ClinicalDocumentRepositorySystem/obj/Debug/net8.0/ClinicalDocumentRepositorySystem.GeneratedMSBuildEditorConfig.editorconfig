@@ -17,87 +17,95 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClinicalDocumentRepositorySystem
 build_property.RootNamespace = ClinicalDocumentRepositorySystem
-build_property.ProjectDir = C:\Users\chaha\OneDrive\Desktop\HealthScience\MedicalSystemWebApp\ClinicalDocumentRepositorySystem\ClinicalDocumentRepositorySystem\
+build_property.ProjectDir = C:\Users\chaha\OneDrive\Desktop\GithubRepo\UKZNHealthScience\ClinicalDocumentRepositorySystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\chaha\OneDrive\Desktop\HealthScience\MedicalSystemWebApp\ClinicalDocumentRepositorySystem\ClinicalDocumentRepositorySystem
+build_property.MSBuildProjectDirectory = C:\Users\chaha\OneDrive\Desktop\GithubRepo\UKZNHealthScience\ClinicalDocumentRepositorySystem
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Home/Clinic.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/AddClinic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRDbGluaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/AddPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/Clinic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGluaWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Home/Index.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Home/Patient.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/Patient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXRpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Home/PatientRecords.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/PatientRecords.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXRpZW50UmVjb3Jkcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Home/Privacy.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Home/UserAdmin.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Home/UserAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Shared/Error.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/_ViewImports.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/_ViewStart.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chaha/OneDrive/Desktop/HealthScience/MedicalSystemWebApp/ClinicalDocumentRepositorySystem/ClinicalDocumentRepositorySystem/Views/Shared/_Layout.cshtml]
+[C:/Users/chaha/OneDrive/Desktop/GithubRepo/UKZNHealthScience/ClinicalDocumentRepositorySystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ff7yixjs4l

@@ -1,8 +1,183 @@
-﻿
-@{
-    ViewData["Title"] = "Patient";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel with Big Buttons, List View, and Data Grid View</title>
+    <style>
+        .panel {
+            width: 80%; /* Adjust width as needed */
+            margin: 0 auto;
+            text-align: center;
+        }
 
-<h1>Patient</h1>
-<p>This page will be used to manage patient</p>
+        .button {
+            width: 200px; /* Adjust button width as needed */
+            height: 100px; /* Adjust button height as needed */
+            margin: 10px;
+            font-size: 24px;
+        }
 
+        .list-view {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .data-grid {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+            .data-grid th, .data-grid td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            .data-grid th {
+                background-color: #f2f2f2;
+            }
+            /* add patient style below  */
+      
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"], input[type="email"], input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        input[type="date"] {
+            width: calc(100% - 22px); /* Adjust for date picker width */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+ 
+
+    </style>
+</head>
+<body>
+ 
+
+
+    <table class="data-grid">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+                <!-- Add more rows and data as needed -->
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function buttonClicked(buttonNumber) {
+            alert("Button " + buttonNumber + " clicked!");
+            // You can add more functionality here
+        }
+    </script>
+
+
+    <div class="container">
+        <h2>Add Patient Details</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="clientName">Client Name:</label>
+                <input type="text" id="clientName" name="clientName" required>
+            </div>
+            <div class="form-group">
+                <label for="clientAge">Client Age:</label>
+                <input type="number" id="clientAge" name="clientAge" required>
+            </div>
+            <div class="form-group">
+                <label for="clientDateOfBirth">Client Date of Birth:</label>
+                <input type="date" id="clientDateOfBirth" name="clientDateOfBirth" required>
+            </div>
+            <div class="form-group">
+                <label for="clientGender">Client Gender:</label>
+                <select id="clientGender" name="clientGender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="homeAddress">Home Address:</label>
+                <input type="text" id="homeAddress" name="homeAddress">
+            </div>
+            <div class="form-group">
+                <label for="postCode">Post Code:</label>
+                <input type="text" id="postCode" name="postCode">
+            </div>
+            <div class="form-group">
+                <label for="homeTel">Home Telephone:</label>
+                <input type="text" id="homeTel" name="homeTel">
+            </div>
+            <!-- Add more fields here as needed -->
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
