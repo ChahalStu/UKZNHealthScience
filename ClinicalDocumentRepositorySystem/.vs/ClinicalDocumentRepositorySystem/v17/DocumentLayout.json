@@ -141,8 +141,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -153,8 +157,7 @@
               "RelativeToolTip": "Views\\Home\\Clinic.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAAAAwFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T21:25:20.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T21:25:20.863Z"
             },
             {
               "$type": "Document",
@@ -166,8 +169,7 @@
               "RelativeToolTip": "Views\\Home\\AddClinic.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T05:56:13.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T05:56:13.826Z"
             },
             {
               "$type": "Document",
@@ -237,7 +239,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Patient.cshtml",
               "ToolTip": "C:\\Users\\chaha\\OneDrive\\Desktop\\GithubRepo\\UKZNHealthScience\\ClinicalDocumentRepositorySystem\\Views\\Home\\Patient.cshtml",
               "RelativeToolTip": "Views\\Home\\Patient.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADMAAAAXAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-12T20:24:47.958Z",
               "EditorCaption": ""
@@ -252,8 +254,7 @@
               "RelativeToolTip": "Views\\Home\\AddPatient.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAGAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T18:12:32.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T18:12:32.392Z"
             },
             {
               "$type": "Document",
